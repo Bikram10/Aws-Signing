@@ -68,10 +68,11 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "S3-angular:build:production"
+              "browserTarget": "S3-angular:build:production",
+
             },
             "development": {
-              "browserTarget": "S3-angular:build:development"
+              "browserTarget": "S3-angular:build:development",
             }
           },
           "defaultConfiguration": "development"

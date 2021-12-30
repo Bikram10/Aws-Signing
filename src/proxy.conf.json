@@ -1,0 +1,7 @@
+{
+  "/api/*": {
+    "target": "https://springvideobucket.s3.ap-southeast-2.amazonaws.com/",
+    "secure": true,
+    "logLevel": "debug"
+  }
+}
